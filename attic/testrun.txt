@@ -1,0 +1,101 @@
+
+
+mememeContent-Length: 46
+
+{"command":"scripts","seq":1,"type":"request"}
+mememeContent-Length: 80
+
+{"command":"backtrace","arguments":{"inlineRefs":true},"seq":2,"type":"request"}
+mememeContent-Length: 99
+
+{"command":"setexceptionbreak","arguments":{"type":"all","enabled":false},"seq":3,"type":"request"}
+mememeContent-Length: 54
+
+{"command":"listbreakpoints","seq":4,"type":"request"}
+mememeContent-Length: 83
+
+{"command":"clearbreakpoint","arguments":{"breakpoint":1},"seq":5,"type":"request"}
+mememeContent-Length: 104
+
+{"command":"scripts","arguments":{"includeSource":true,"types":4,"ids":["28"]},"seq":6,"type":"request"}
+mememeContent-Length: 103
+
+{"command":"scope","arguments":{"number":0,"frameNumber":0,"inlineRefs":true},"seq":7,"type":"request"}
+mememeContent-Length: 46
+
+{"command":"scripts","seq":8,"type":"request"}
+mememeContent-Length: 95
+
+{"command":"continue","arguments":{"stepaction":"next","stepcount":1},"seq":9,"type":"request"}
+mememeContent-Length: 81
+
+{"command":"backtrace","arguments":{"inlineRefs":true},"seq":10,"type":"request"}
+mememeContent-Length: 104
+
+{"command":"scope","arguments":{"number":0,"frameNumber":0,"inlineRefs":true},"seq":11,"type":"request"}
+mememeContent-Length: 47
+
+{"command":"scripts","seq":12,"type":"request"}
+mememeContent-Length: 96
+
+{"command":"continue","arguments":{"stepaction":"next","stepcount":1},"seq":13,"type":"request"}
+mememeContent-Length: 81
+
+{"command":"backtrace","arguments":{"inlineRefs":true},"seq":14,"type":"request"}
+mememeContent-Length: 104
+
+{"command":"scope","arguments":{"number":0,"frameNumber":0,"inlineRefs":true},"seq":15,"type":"request"}
+mememeContent-Length: 96
+
+{"command":"continue","arguments":{"stepaction":"next","stepcount":1},"seq":16,"type":"request"}
+mememeContent-Length: 81
+
+{"command":"backtrace","arguments":{"inlineRefs":true},"seq":17,"type":"request"}
+mememeContent-Length: 104
+
+{"command":"scope","arguments":{"number":0,"frameNumber":0,"inlineRefs":true},"seq":18,"type":"request"}
+mememeContent-Length: 96
+
+{"command":"continue","arguments":{"stepaction":"next","stepcount":1},"seq":19,"type":"request"}
+mememeContent-Length: 81
+
+{"command":"backtrace","arguments":{"inlineRefs":true},"seq":20,"type":"request"}
+mememeContent-Length: 104
+
+{"command":"scope","arguments":{"number":0,"frameNumber":0,"inlineRefs":true},"seq":21,"type":"request"}
+mememeContent-Length: 96
+
+{"command":"continue","arguments":{"stepaction":"next","stepcount":1},"seq":22,"type":"request"}
+mememeContent-Length: 81
+
+{"command":"backtrace","arguments":{"inlineRefs":true},"seq":23,"type":"request"}
+mememeContent-Length: 104
+
+{"command":"scope","arguments":{"number":0,"frameNumber":0,"inlineRefs":true},"seq":24,"type":"request"}
+mememeContent-Length: 96
+
+{"command":"continue","arguments":{"stepaction":"next","stepcount":1},"seq":25,"type":"request"}
+mememeContent-Length: 81
+
+{"command":"backtrace","arguments":{"inlineRefs":true},"seq":26,"type":"request"}
+mememeContent-Length: 104
+
+{"command":"scope","arguments":{"number":0,"frameNumber":0,"inlineRefs":true},"seq":27,"type":"request"}
+mememeContent-Length: 47
+
+{"command":"scripts","seq":28,"type":"request"}
+mememeContent-Length: 47
+
+{"command":"scripts","seq":29,"type":"request"}
+mememeContent-Length: 47
+
+{"command":"scripts","seq":30,"type":"request"}
+mememeContent-Length: 47
+
+{"command":"scripts","seq":31,"type":"request"}
+mememeContent-Length: 47
+
+{"command":"scripts","seq":32,"type":"request"}
+mememeContent-Length: 48
+
+{"command":"continue","seq":33,"type":"request"}

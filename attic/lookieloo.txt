@@ -1,0 +1,85 @@
+listener is ready
+104 110 0 110 110
+Content-Length: 120
+
+{"command":"continue","seq":33,"type":"request"}
+{"command":"continue","arguments":{"stepaction":"next","stepcount":1},"seq":9,"type":"request"}
+{"command": "continue", "type": "request", "arguments": {"frameNumber": 0, "number": 0, "inlineRefs": "true"}, "seq": 0}
+15 22 78 100 100
+-----
+{"seq":0,"type":"response","command":"continue","success":true,"running":true}
+-----
+
+called by parse, im going to process the json that it creates
+15 23 258 281 281
+-----
+{"seq":1,"type":"event","event":"break","body":{"invocationText":"require(path=http)","sourceLine":377,"sourceColumn":16,"sourceLineText":"    return self.require(path);","script":{"id":23,"name":"module.js","lineOffset":0,"columnOffset":0,"lineCount":524}}}
+-----
+
+called by parse, im going to process the json that it creates
+Content-Length: 120
+
+{"command": "continue", "type": "request", "arguments": {"frameNumber": 0, "number": 0, "inlineRefs": "true"}, "seq": 1}
+15 22 94 116 116
+-----
+{"seq":2,"request_seq":1,"type":"response","command":"continue","success":true,"running":true}
+-----
+
+called by parse, im going to process the json that it creates
+15 23 272 295 295
+-----
+{"seq":3,"type":"event","event":"break","body":{"invocationText":"#<Module>.require(path=http)","sourceLine":361,"sourceColumn":16,"sourceLineText":"  return Module._load(path, this);","script":{"id":23,"name":"module.js","lineOffset":0,"columnOffset":0,"lineCount":524}}}
+-----
+
+called by parse, im going to process the json that it creates
+Content-Length: 88
+
+{"command": "continue", "type": "request", "arguments": {"stepaction": "out"}, "seq": 2}
+15 22 94 116 116
+-----
+{"seq":4,"request_seq":2,"type":"response","command":"continue","success":true,"running":true}
+-----
+
+called by parse, im going to process the json that it creates
+15 23 467 490 490
+-----
+{"seq":5,"type":"event","event":"afterCompile","success":true,"body":{"script":{"handle":1,"type":"script","name":"http.js","id":29,"lineOffset":0,"columnOffset":0,"lineCount":1839,"sourceStart":"(function (exports, require, module, __filename, __dirname) { // Copyright Joyen","sourceLength":49859,"scriptType":2,"compilationType":0,"context":{"ref":0},"text":"http.js (lines: 1839)"}},"refs":[{"handle":0,"type":"context","text":"#<ContextMirror>"}],"running":true}
+-----
+
+called by parse, im going to process the json that it creates
+15 23 465 488 488
+-----
+{"seq":6,"type":"event","event":"afterCompile","success":true,"body":{"script":{"handle":1,"type":"script","name":"net.js","id":30,"lineOffset":0,"columnOffset":0,"lineCount":1162,"sourceStart":"(function (exports, require, module, __filename, __dirname) { // Copyright Joyen","sourceLength":27843,"scriptType":2,"compilationType":0,"context":{"ref":0},"text":"net.js (lines: 1162)"}},"refs":[{"handle":0,"type":"context","text":"#<ContextMirror>"}],"running":true}
+-----
+
+called by parse, im going to process the json that it creates
+15 23 463 486 486
+-----
+{"seq":7,"type":"event","event":"afterCompile","success":true,"body":{"script":{"handle":1,"type":"script","name":"url.js","id":31,"lineOffset":0,"columnOffset":0,"lineCount":627,"sourceStart":"(function (exports, require, module, __filename, __dirname) { // Copyright Joyen","sourceLength":20502,"scriptType":2,"compilationType":0,"context":{"ref":0},"text":"url.js (lines: 627)"}},"refs":[{"handle":0,"type":"context","text":"#<ContextMirror>"}],"running":true}
+-----
+
+called by parse, im going to process the json that it creates
+15 23 473 496 496
+-----
+{"seq":8,"type":"event","event":"afterCompile","success":true,"body":{"script":{"handle":1,"type":"script","name":"punycode.js","id":32,"lineOffset":0,"columnOffset":0,"lineCount":514,"sourceStart":"(function (exports, require, module, __filename, __dirname) { /*! http://mths.be","sourceLength":14218,"scriptType":2,"compilationType":0,"context":{"ref":0},"text":"punycode.js (lines: 514)"}},"refs":[{"handle":0,"type":"context","text":"#<ContextMirror>"}],"running":true}
+-----
+
+called by parse, im going to process the json that it creates
+15 23 478 501 501
+-----
+{"seq":9,"type":"event","event":"afterCompile","success":true,"body":{"script":{"handle":1,"type":"script","name":"querystring.js","id":33,"lineOffset":0,"columnOffset":0,"lineCount":217,"sourceStart":"(function (exports, require, module, __filename, __dirname) { // Copyright Joyen","sourceLength":5816,"scriptType":2,"compilationType":0,"context":{"ref":0},"text":"querystring.js (lines: 217)"}},"refs":[{"handle":0,"type":"context","text":"#<ContextMirror>"}],"running":true}
+-----
+
+called by parse, im going to process the json that it creates
+15 23 471 494 494
+-----
+{"seq":10,"type":"event","event":"afterCompile","success":true,"body":{"script":{"handle":1,"type":"script","name":"freelist.js","id":34,"lineOffset":0,"columnOffset":0,"lineCount":45,"sourceStart":"(function (exports, require, module, __filename, __dirname) { // Copyright Joyen","sourceLength":1822,"scriptType":2,"compilationType":0,"context":{"ref":0},"text":"freelist.js (lines: 45)"}},"refs":[{"handle":0,"type":"context","text":"#<ContextMirror>"}],"running":true}
+-----
+
+called by parse, im going to process the json that it creates
+15 23 251 274 274
+-----
+{"seq":11,"type":"event","event":"break","body":{"invocationText":"require(path=http) returning #<Object>","sourceLine":378,"sourceColumn":2,"sourceLineText":"  }","script":{"id":23,"name":"module.js","lineOffset":0,"columnOffset":0,"lineCount":524}}}
+-----
+
+called by parse, im going to process the json that it creates
